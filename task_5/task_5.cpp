@@ -11,9 +11,7 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "ru.UTF-8"); //работает только с потоком вывода
-	SetConsoleCP(1251); //устанавливает нужную кодовую таблицу, на поток ввода
-	SetConsoleOutputCP(1251); //устанавливает нужную кодовую таблицу, на поток вывода
+	setlocale(LC_ALL, ""); //работает только с потоком вывода	
 
 	cout << "Введите сумму в гривнах: " << endl;
 	double amount_in_hryvnia{ 0.0 }; //сумма в гривнах
