@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian"); //работает только с потоком вывода	
+	setlocale(LC_ALL, ""); //работает только с потоком вывода	
 
 	cout << "¬ведите сумму в гривнах: " << endl;
 	double amount_in_hryvnia{ 0.0 }; //сумма в гривнах
